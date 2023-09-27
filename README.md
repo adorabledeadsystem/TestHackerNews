@@ -24,9 +24,9 @@
   - дату
   - автора
   - счётчик количества комментариев
-  - <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> список комментариев в виде дерева <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
-- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> Корневые комментарии подгружаются сразу же при входе на страницу, вложенные - по клику на корневой. <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
-- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> На странице должна быть кнопка для принудительного обновления списка комментариев <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
+  - <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''> список комментариев в виде дерева <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''>
+- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''> Корневые комментарии подгружаются сразу же при входе на страницу, вложенные - по клику на корневой. <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''>
+- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''> На странице должна быть кнопка для принудительного обновления списка комментариев <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''>
 - На странице должна быть кнопка для возврата к списку новостей
 
 ## Технические требования
@@ -38,8 +38,8 @@
   - [mantine](https://mantine.dev/)
   - [chakra](https://chakra-ui.com/)
   - <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> или свои компоненты со стилями ([Tailwind](https://tailwindcss.com/) / [SCSS Modules](https://www.npmjs.com/package/sass) или [Styled Components](https://styled-components.com/)) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
-- [React Query v4](https://tanstack.com/query/v4/docs/react/overview)
-- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> Стейт менеджер на выбор (при необходимости): <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
+- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> [React Query v4](https://tanstack.com/query/v4/docs/react/overview) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
+- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''> Стейт менеджер на выбор (при необходимости): <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''>
   - [Zustand](https://github.com/pmndrs/zustand)
   - [Jotai](https://jotai.org/)
   - [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
@@ -51,7 +51,7 @@
   - <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> Для удобства тестирования API [импортируйте](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) Postman коллекцию [`HackerNewsAPI.json`](./HackerNewsAPI.json) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
 - <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> Приложение должно запускаться по адресу `localhost:3000` командой `npm run start` <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
 - При переходах по ссылкам страница не перезагружается
-- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> Добавить статическую генерацию главной страницы и 100 страниц новостей на сервере (с помощью SSG и ревалидацией, каждые 10 минут) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
+- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''> Добавить статическую генерацию главной страницы и 100 страниц новостей на сервере (с помощью SSG и ревалидацией, каждые 10 минут) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''>
 - <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> Исходный код решения должен быть загружен с вашего аккаунта в репозиторий на [GitHub](http://github.com/) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
-- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''> Будет плюсом деплой решения на хостинг: [Vercel](https://vercel.com/) (или свой VPS) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg" alt=''>
+- <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''> Будет плюсом деплой решения на хостинг: [Vercel](https://vercel.com/) (или свой VPS) <img src="https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChangesGrey.svg" alt=''>
 
