@@ -1,0 +1,21 @@
+.news{
+    background-color: #f6f6ef;
+    .loading{font-size: 48px; text-align: center; }
+    .newsItem{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 35px 15px;
+        border-bottom: 1px solid #828282;
+        cursor: pointer;
+        p{
+            flex: 0 1 15%;
+            font-size: 18px;
+        }
+        .itemTitle{flex: 0 1 40%;}
+        .itemAuthor{}
+        .itemRating{}
+        .itemId{}
+        .itemTime{}
+    }
+}

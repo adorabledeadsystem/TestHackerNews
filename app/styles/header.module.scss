@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #ff9249;  
+    .headerTitle{
+        font-size: 32px;    
+        font-weight: normal;
+    }
+    .headerRefresh{
+        padding: 15px 25px;
+        background-color: #FFF;
+        color: #000;
+        border: 1px solid #828282;
+        border-radius:  5px;
+        cursor: pointer;
+    }
+}
