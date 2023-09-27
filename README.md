@@ -6,7 +6,7 @@
 
 ### Главная страница
 
-- Показывает последние 100 новостей в виде списка, отсортированного по дате, самые свежие сверху. <img src={https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg} alt=''>
+- Показывает последние 100 новостей в виде списка, отсортированного по дате, самые свежие сверху. <img src={[(https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg)](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg)} alt=''>
 - Каждая новость содержит:
   - название
   - рейтинг
