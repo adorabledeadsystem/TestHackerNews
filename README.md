@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Тестовое задание Frontend
 
-## Getting Started
+Разработать интерфейс для сайта [Hacker News](https://news.ycombinator.com/news), состоящий из двух страниц.
 
-First, run the development server:
+## Требования
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Главная страница
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Показывает последние 100 новостей в виде списка, отсортированного по дате, самые свежие сверху. <img src={ApprovedChanges.svg} alt=''>
+- Каждая новость содержит:
+  - название
+  - рейтинг
+- ник автора
+- дату публикации
+- По клику на новость происходит переход на страницу новости
+- Список новостей должен автоматически обновляться раз в минуту без участия пользователя
+- На странице должна быть кнопка для принудительного обновления списка новостей
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Страница новости
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Должна содержать:
+  - ссылку на новость
+  - заголовок новости
+  - дату
+  - автора
+  - счётчик количества комментариев
+  - список комментариев в виде дерева
+- Корневые комментарии подгружаются сразу же при входе на страницу, вложенные - по клику на корневой.
+- На странице должна быть кнопка для принудительного обновления списка комментариев
+- На странице должна быть кнопка для возврата к списку новостей
 
-## Learn More
+## Технические требования
 
-To learn more about Next.js, take a look at the following resources:
+- TypeScript
+- [Next.js](https://nextjs.org/)
+- Фреймворк для UI на выбор:
+  - [ui.shadcn](https://ui.shadcn.com/)
+  - [mantine](https://mantine.dev/)
+  - [chakra](https://chakra-ui.com/)
+  - или свои компоненты со стилями ([Tailwind](https://tailwindcss.com/) / [SCSS Modules](https://www.npmjs.com/package/sass) или [Styled Components](https://styled-components.com/))
+- [React Query v4](https://tanstack.com/query/v4/docs/react/overview)
+- Стейт менеджер на выбор (при необходимости):
+  - [Zustand](https://github.com/pmndrs/zustand)
+  - [Jotai](https://jotai.org/)
+  - [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
+- Пакетный менеджер `npm`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Использован [официальный API Hacker News](https://github.com/HackerNews/API)
+  - Для удобства тестирования API [импортируйте](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/) Postman коллекцию [`HackerNewsAPI.json`](./HackerNewsAPI.json)
+- Приложение должно запускаться по адресу `localhost:3000` командой `npm run start`
+- При переходах по ссылкам страница не перезагружается
+- Добавить статическую генерацию главной страницы и 100 страниц новостей на сервере (с помощью SSG и ревалидацией, каждые 10 минут)
+- Исходный код решения должен быть загружен с вашего аккаунта в репозиторий на [GitHub](http://github.com/)
+- Будет плюсом деплой решения на хостинг: [Vercel](https://vercel.com/) (или свой VPS)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
