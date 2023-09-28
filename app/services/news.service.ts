@@ -1,4 +1,5 @@
 import axios from 'axios'
+
 import { INews } from '../interfaces/news.interface'
 
 class NewsService{

@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import axios from "axios";
-import { INews } from "../../interfaces/news.interface";
 
+import { INews } from "../../interfaces/news.interface";
 import styles from '../../styles/news.module.scss'
 
 export const getStaticProps = async (): Promise<any> => {

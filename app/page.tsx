@@ -1,6 +1,7 @@
 
 import News from './components/News'
 import Header from './components/Header'
+
 import styles from "./styles/page.module.scss";
 
 export default function Home() {

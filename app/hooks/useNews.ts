@@ -1,4 +1,5 @@
 import { useQuery } from 'react-query';
+
 import newsService from '../services/news.service';
 import { INews } from './../interfaces/news.interface';
 

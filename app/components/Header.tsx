@@ -1,7 +1,8 @@
 "use client"
 import React from 'react'
-import styles from "../styles/header.module.scss";
 import { useQueryClient } from 'react-query'
+
+import styles from "../styles/header.module.scss";
 
 
 const Header = () => {

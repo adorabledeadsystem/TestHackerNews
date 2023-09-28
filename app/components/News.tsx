@@ -1,9 +1,10 @@
 "use client"
 import React from 'react'
-import styles from "../styles/news.module.scss";
+
+import  NewsCard  from './NewsCard';
+
 import { useNews } from '../hooks/useNews';
-import { INews } from './../interfaces/news.interface';
-import  NewsCard  from '../pages/news/index';
+import styles from "../styles/news.module.scss";
 
 export default function News() {
   
