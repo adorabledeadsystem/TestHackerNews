@@ -3,7 +3,7 @@ import React from 'react'
 import styles from "../styles/news.module.scss";
 import { useNews } from '../hooks/useNews';
 import { INews } from './../interfaces/news.interface';
-import  NewsCard  from './NewsCard';
+import  NewsCard  from '../pages/news/index';
 
 export default function News() {
   

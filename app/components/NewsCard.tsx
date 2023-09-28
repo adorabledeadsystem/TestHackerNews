@@ -15,7 +15,7 @@ export default function NewsCard({ title, by, score, id, time }: INews){
   var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
 
   return (
-    <Link href={`/news/${id}`}>
+    <Link href={`./${id}`}>
       <div className={styles.newsItem}>
           <p className={styles.itemTitle}>Название: {title}</p>
           <p className={styles.itemAuthor}>Автор: {by}</p>
